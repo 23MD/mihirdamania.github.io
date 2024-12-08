@@ -62,8 +62,8 @@ redirect_from:
   *[GitHub](https://github.com/23MD/Chocolate_Sales_Analysis)*  
   Analyzed sales data across six countries using SQL to identify trends in product profitability and team effectiveness. Created a Power BI dashboard, highlighting peak performance periods and product preferences.
 
-- **Capstone Project: Prediction of SpaceX Falcon 9 Rockets Launch Outcome.**
-  *[GitHub](https://github.com/23MD/DataScience_Capstone_Project)*
+- **Capstone Project: Prediction of SpaceX Falcon 9 Rockets Launch Outcome.** <br>
+  *[GitHub](https://github.com/23MD/DataScience_Capstone_Project)* <br>
   This project aims to predict the outcomes of SpaceX launches, specifically determining whether a launch will be successful or result in a failure. The dataset used in this project includes various features related to the launch conditions, rocket types, and other relevant factors.
 
 - **Personal Finance Tracker Mini Project**  
@@ -71,8 +71,8 @@ redirect_from:
   Managing personal finances can be challenging without a clear record of income and expenses. This project aims to help users track their financial transactions, providing a simple way to monitor income, expenses, and savings over time.
   
 
-- **End-To-End Students’ Exam Performance Indicator**  
-  *[GitHub](https://github.com/23MD/Student_Exam_Performance_Indicator) | [Website](https://student-exam-performance-indicator.onrender.com/predictdata)*
+- **End-To-End Students’ Exam Performance Indicator**  <br>
+  *[GitHub](https://github.com/23MD/Student_Exam_Performance_Indicator) | [Website](https://student-exam-performance-indicator.onrender.com/predictdata)* <br>
   Built a web app using a regression model to predict student performance, enabling educators to identify at-risk students. Utilized Python, Scikit-learn, and Flask for deployment.
 
 - **End-To-End Book Recommender System**  
