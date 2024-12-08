@@ -72,7 +72,7 @@ redirect_from:
   
 
 - **End-To-End Students’ Exam Performance Indicator**  
-  *[GitHub](https://github.com/23MD/Student_Exam_Performance_Indicator) | [Website](https://student-exam-performance-indicator.onrender.com/predictdata)*  
+  *[GitHub](https://github.com/23MD/Student_Exam_Performance_Indicator) | [Website](https://student-exam-performance-indicator.onrender.com/predictdata)*
   Built a web app using a regression model to predict student performance, enabling educators to identify at-risk students. Utilized Python, Scikit-learn, and Flask for deployment.
 
 - **End-To-End Book Recommender System**  
@@ -131,7 +131,7 @@ redirect_from:
 
 ---
 
-- **📜 [Resume](https://github.com/23MD/mihirdamania.github.io/blob/1df1fe8a8c00f1954754e634b2f8e099b08c7aaa/files/MIHIR_DAMANIA.pdf) **
+📜 *[Resume](https://github.com/23MD/mihirdamania.github.io/blob/1df1fe8a8c00f1954754e634b2f8e099b08c7aaa/files/MIHIR_DAMANIA.pdf)*
 
 
 
