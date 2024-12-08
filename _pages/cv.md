@@ -131,7 +131,7 @@ redirect_from:
 
 ---
 
-📜 *[Resume](https://github.com/23MD/mihirdamania.github.io/blob/1df1fe8a8c00f1954754e634b2f8e099b08c7aaa/files/MIHIR_DAMANIA.pdf)*
+*[Download Resume](https://github.com/23MD/mihirdamania.github.io/blob/1df1fe8a8c00f1954754e634b2f8e099b08c7aaa/files/MIHIR_DAMANIA.pdf)* 
 
 
 
