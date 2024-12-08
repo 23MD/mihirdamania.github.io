@@ -7,58 +7,119 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# 📚 Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**MA - Economics**  
+*Mumbai School of Economics and Public Policy*  
+*July 2021 - May 2023*  
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**BE - Electronics and Telecommunication Engineering (EXTC)**  
+*Watumull Institute of Engineering and Technology*  
+*July 2014 - May 2018*  
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+# 🎓 Certifications
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **IBM Data Science Professional Certification** *(May 2024)*  
+  Capstone Project: *Prediction of SpaceX Falcon 9 Rockets Launch Outcome.*
+
+- **Investment Analysis and Portfolio Management: Role of ML and AI** *(March 2024)*  
+  *By Prof. Abhinava Tripathi, IIT Kanpur.*
+
+- **The Forage - BCGX Data Science Job Simulation** *(September 2024)*  
+
+---
+
+# 💼 Experience
+
+### **Research Assistant** *(October 2023 – December 2023)*  
+**Mumbai School of Economics and Public Policy**  
+- Analyzed Gross District Domestic Product (GDDP) and 12+ sectors, using forecasting, BCG Matrix, and SWOT analysis to guide Ratnagiri's strategy for 17% growth and doubling export contribution by FY28.  
+- Conducted sectoral analysis and expenditure reviews, uncovering insights into growth constraints and opportunities, collaborating with 100+ stakeholders.  
+- Synthesized data from web scraping and government sources to create a comprehensive district profile for strategic planning.  
+
+### **Jr. Engineer - Tech Ops** *(October 2020 – December 2021)*  
+**Anunta Technology Management Services Limited**  
+- Managed IT issue resolution for clients in the USA, UK, and Philippines, ensuring timely responses and adherence to priority levels.  
+- Documented solutions for recurring issues and produced daily reports for IT incidents and escalations.  
+
+### **Desktop L1 Engineer** *(October 2018 – July 2019)*  
+**Client**: Sun Pharmaceutical Industries Ltd. | **Employer**: Wipro Technologies  
+- Provided remote support to 1500 users across India, acting as the single point of contact (SPOC) for IT incidents and requests.  
+- Coordinated with local IT managers, service providers, and vendors to resolve technical issues efficiently.  
+**Achievement**: Awarded by Sun Pharma for exceptional performance and productivity.  
+
+---
+
+# 🚀 Projects  
+
+- **District Level Economic Analysis of Telangana**  
+  *[GitHub](#)*  
+  Conducted a comprehensive analysis of Telangana’s economy across 33 districts, examining registration revenue, vehicle sales, and industrial investments using Power BI to uncover regional trends.
+
+- **Divine Chocolate Sales Analysis**  
+  *[GitHub](#)*  
+  Analyzed sales data across six countries using SQL to identify trends in product profitability and team effectiveness. Created a Power BI dashboard, highlighting peak performance periods and product preferences.
+
+- **End-To-End Students’ Exam Performance Indicator**  
+  *[GitHub](#) | [Website](#)*  
+  Built a web app using a regression model to predict student performance, enabling educators to identify at-risk students. Utilized Python, Scikit-learn, and Flask for deployment.
+
+- **End-To-End Book Recommender System**  
+  *[GitHub](#) | [Website](#)*  
+  Developed a web app that provides personalized book recommendations using popularity-based and collaborative filtering, enhancing user engagement.
+
+---
+
+# 📄 MA Dissertation
+
+**Evaluation of the National Rural Livelihood Mission (NRLM)**  
+- Conducted a comparative analysis of NRLM performance across seven of India's poorest states.  
+- Focused on Self-Help Group (SHG) performance, income and saving trends, and employment generation activities.
+
+---
+
+# 🛠 Skills
+
+### **Data Skills**  
+- Web scraping  
+- Data wrangling  
+- Visualization  
+- Feature engineering  
+- Statistical and Time series analysis  
+
+### **Machine Learning Algorithms**  
+- Multiple Linear Regression  
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+- Support Vector Machine (SVM)  
+- K-Nearest Neighbors (KNN)  
+
+### **Software Tools**  
+- Python  
+- SQL and MySQL DB  
+- Power BI  
+- Microsoft Office  
+- AWS  
+
+---
+
+# 🏫 Workshops  
+
+- **Doing Econometrics with R**  
+- **Introduction to GIS and Nightlight Data**  
+- **Policy Analysis with Application of STATA**  
+
+---
+
+# 🎤 Seminars  
+
+- **Introduction to Artificial Intelligence and Machine Learning**  
+- **Human Development in the Era of Polycrisis**  
+- **Behavioural Public Policy and Experiments**  
+
+
+
+ 
