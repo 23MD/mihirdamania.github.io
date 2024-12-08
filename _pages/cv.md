@@ -55,19 +55,28 @@ redirect_from:
 # 🚀 Projects  
 
 - **District Level Economic Analysis of Telangana**  
-  *[GitHub](#)*  
+  *[GitHub](https://github.com/23MD/District-Level-Economic-Analysis-of-Telangana-Revenue-Transport-and-Investments)*  
   Conducted a comprehensive analysis of Telangana’s economy across 33 districts, examining registration revenue, vehicle sales, and industrial investments using Power BI to uncover regional trends.
 
 - **Divine Chocolate Sales Analysis**  
-  *[GitHub](#)*  
+  *[GitHub](https://github.com/23MD/Chocolate_Sales_Analysis)*  
   Analyzed sales data across six countries using SQL to identify trends in product profitability and team effectiveness. Created a Power BI dashboard, highlighting peak performance periods and product preferences.
 
+- **Capstone Project: Prediction of SpaceX Falcon 9 Rockets Launch Outcome.**
+  *[GitHub](https://github.com/23MD/DataScience_Capstone_Project)*
+  This project aims to predict the outcomes of SpaceX launches, specifically determining whether a launch will be successful or result in a failure. The dataset used in this project includes various features related to the launch conditions, rocket types, and other relevant factors.
+
+- **Personal Finance Tracker Mini Project**  
+  *[GitHub](https://github.com/23MD/Personal-Finance-Tracker)*  
+  Managing personal finances can be challenging without a clear record of income and expenses. This project aims to help users track their financial transactions, providing a simple way to monitor income, expenses, and savings over time.
+  
+
 - **End-To-End Students’ Exam Performance Indicator**  
-  *[GitHub](#) | [Website](#)*  
+  *[GitHub](https://github.com/23MD/Student_Exam_Performance_Indicator) | [Website](https://student-exam-performance-indicator.onrender.com/predictdata)*  
   Built a web app using a regression model to predict student performance, enabling educators to identify at-risk students. Utilized Python, Scikit-learn, and Flask for deployment.
 
 - **End-To-End Book Recommender System**  
-  *[GitHub](#) | [Website](#)*  
+  *[GitHub](https://github.com/23MD/Book-Recommendation-System) | [Website](https://book-recommendation-system-9ruh.onrender.com/)*  
   Developed a web app that provides personalized book recommendations using popularity-based and collaborative filtering, enhancing user engagement.
 
 ---
@@ -118,7 +127,11 @@ redirect_from:
 
 - **Introduction to Artificial Intelligence and Machine Learning**  
 - **Human Development in the Era of Polycrisis**  
-- **Behavioural Public Policy and Experiments**  
+- **Behavioural Public Policy and Experiments**
+
+---
+
+- **📜 [Resume](https://github.com/23MD/mihirdamania.github.io/blob/1df1fe8a8c00f1954754e634b2f8e099b08c7aaa/files/MIHIR_DAMANIA.pdf) **
 
 
 
