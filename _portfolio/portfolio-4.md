@@ -4,9 +4,6 @@ excerpt: "Managing personal finances can be challenging without a clear record o
 collection: portfolio
 ---
 
-<h1>Personal Finance Tracker Mini Project</h1>
-<h2>Problem Statement</h2>
-<p>Managing personal finances can be challenging without a clear record of income and expenses. This project aims to help users track their financial transactions, providing a simple way to monitor income, expenses, and savings over time.</p>
 
 <h2>Description</h2>
 <p>The Personal Finance Tracker is a Python-based application designed to help users practice and apply key Python concepts while managing their finances. The app offers the following features:</p>
