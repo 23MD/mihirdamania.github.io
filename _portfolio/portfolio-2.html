@@ -1,38 +1,121 @@
 ---
 title: "Divine Chocolate Sales Analysis"
-excerpt: "The primary aim is to provide actionable insights into the sales and operational performance of Divine Chocolates, a hypothetical company dealing in premium chocolates. This portfolio project involves extracting, transforming, and analyzing data using SQL queries executed in a Jupyter Notebook environment and visualizing the findings through a comprehensive Power BI dashboard. <br/><img src='/images/Telangana_Project.png'>"
+excerpt: "The primary aim is to provide actionable insights into the sales and operational performance of Divine Chocolates, a hypothetical company dealing in premium chocolates. This portfolio project involves extracting, transforming, and analyzing data using SQL queries executed in a Jupyter Notebook environment and visualizing the findings through a comprehensive Power BI dashboard. <br><img src='/images/Chocolate_Project.jpg'>"
 collection: portfolio
 ---
 
 
-## Introduction
-Welcome to the Divine Chocolates Data Analytics Portfolio Project. This project showcases my proficiency in data analytics by leveraging Power BI for data visualization and MySQL for data management. The primary aim is to provide actionable insights into the sales and operational performance of Divine Chocolates, a hypothetical company dealing in premium chocolates. This portfolio project involves extracting, transforming, and analyzing data using SQL queries executed in a Jupyter Notebook environment and visualizing the findings through a comprehensive Power BI dashboard.
+<h2>Introduction</h2>
+    <p>Welcome to the Divine Chocolates Data Analytics Portfolio Project. This project showcases my proficiency in data analytics by leveraging Power BI for data visualization and MySQL for data management. The primary aim is to provide actionable insights into the sales and operational performance of Divine Chocolates, a hypothetical company dealing in premium chocolates. This portfolio project involves extracting, transforming, and analyzing data using SQL queries executed in a Jupyter Notebook environment and visualizing the findings through a comprehensive Power BI dashboard.</p>
 
-## Objective
-The objective of this portfolio project is to demonstrate my capability in handling real-world data analytics tasks by:
-- Extracting and manipulating data from a MySQL database.
-- Performing complex SQL queries to answer critical business questions.
-- Creating insightful visualizations using Power BI to support decision-making processes.
-- Providing a detailed analysis of sales performance, product profitability, team effectiveness, and market trends for Divine Chocolates.
+    <h2>Objective</h2>
+    <p>The objective of this portfolio project is to demonstrate my capability in handling real-world data analytics tasks by:</p>
+    <ul>
+        <li>Extracting and manipulating data from a MySQL database.</li>
+        <li>Performing complex SQL queries to answer critical business questions.</li>
+        <li>Creating insightful visualizations using Power BI to support decision-making processes.</li>
+        <li>Providing a detailed analysis of sales performance, product profitability, team effectiveness, and market trends for Divine Chocolates.</li>
+    </ul>
 
+    <h2>About Dataset</h2>
+    <p>Database created in MySQL and accessed from Jupyter Notebook using the <code>mysql.connector</code> library. There are 3 tables in the database:</p>
+    <ul>
+        <li><b>Shipments Table</b> - Shows the different categories of products shipped by salespersons to different regions of the world. It also has data on the date and number of boxes shipped, along with the revenue made by each salesperson. This table has 6113 sales records and 6 attributes.</li>
+        <li><b>Product Table</b> - Shows 3 distinct categories for 22 unique kinds of chocolate and their prices per box.</li>
+        <li><b>Salesperson Table</b> - Contains the name of the salesperson and their team name. There are 25 salespersons working in 4 teams.</li>
+    </ul>
+    <p><a href="https://www.kaggle.com/datasets/prajwal6362venom/choclate-sales-project">Kaggle Dataset</a></p>
 
-## Business Requirement Table
-| ID| Business Question| Objective| Key Metrics| Expected Outcome|
-|-|-|-|-|-|
-|1|	Total Sales per Category|	Determine the total sales for each product category.|	Total Sales, Product Category|	Identify top-performing product categories.|
-|2|	Highest Salesperson per Geography	|Identify the top salesperson in each geography.|	Salesperson, Geography, Sales|	Recognize and reward top performers in different regions.|
-|3|	Profit Calculation	|Compute the profit for each shipment and aggregate by salesperson.|	Sales, Cost, Profit	|Evaluate profitability and identify key contributors to profit.|
-|4|	Sales Trend Analysis|	Show month-over-month sales trends for each product category.|	Monthly Sales, Product Category	|Understand sales seasonality and growth trends.|
-|5|	Top Selling Products by Team|	Determine the top 3 best-selling products for each sales team.|	Sales Team, Product, Sales|	Optimize product offerings and sales strategies by team.|
-|6|	Geography-based Sales Distribution|	Find the percentage contribution of each geography to total sales.|	Sales, Geography|	Identify key markets and allocate resources accordingly.|
-|7|	Average Cost per Category	|Calculate the average cost of products for each category.|	Product Cost, Product Category	|Monitor cost efficiency across different product categories.|
-|8|	Team-wise Sales Performance|	Compare total sales performance of different sales teams.|	Sales Team, Sales|	Assess team performance and provide targeted support or training.|
-|9|	Shipment Details for High Value Products	|List all shipment details where the product cost is above a certain threshold.|	Product Cost, Shipment Details|	Focus on high-value products to ensure quality and manage risks.|
-|10|	Salesperson Contribution to Team Sales|	Calculate the percentage contribution of each salesperson to their respective team’s total sales.|	Salesperson, Sales Team, Sales|	Evaluate individual contributions and align incentives accordingly.|
+    <h2>Business Requirement Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Business Question</th>
+                <th>Objective</th>
+                <th>Key Metrics</th>
+                <th>Expected Outcome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Total Sales per Category</td>
+                <td>Determine the total sales for each product category.</td>
+                <td>Total Sales, Product Category</td>
+                <td>Identify top-performing product categories.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Highest Salesperson per Geography</td>
+                <td>Identify the top salesperson in each geography.</td>
+                <td>Salesperson, Geography, Sales</td>
+                <td>Recognize and reward top performers in different regions.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Profit Calculation</td>
+                <td>Compute the profit for each shipment and aggregate by salesperson.</td>
+                <td>Sales, Cost, Profit</td>
+                <td>Evaluate profitability and identify key contributors to profit.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sales Trend Analysis</td>
+                <td>Show month-over-month sales trends for each product category.</td>
+                <td>Monthly Sales, Product Category</td>
+                <td>Understand sales seasonality and growth trends.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Top Selling Products by Team</td>
+                <td>Determine the top 3 best-selling products for each sales team.</td>
+                <td>Sales Team, Product, Sales</td>
+                <td>Optimize product offerings and sales strategies by team.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Geography-based Sales Distribution</td>
+                <td>Find the percentage contribution of each geography to total sales.</td>
+                <td>Sales, Geography</td>
+                <td>Identify key markets and allocate resources accordingly.</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Average Cost per Category</td>
+                <td>Calculate the average cost of products for each category.</td>
+                <td>Product Cost, Product Category</td>
+                <td>Monitor cost efficiency across different product categories.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Team-wise Sales Performance</td>
+                <td>Compare total sales performance of different sales teams.</td>
+                <td>Sales Team, Sales</td>
+                <td>Assess team performance and provide targeted support or training.</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Shipment Details for High-Value Products</td>
+                <td>List all shipment details where the product cost is above a certain threshold.</td>
+                <td>Product Cost, Shipment Details</td>
+                <td>Focus on high-value products to ensure quality and manage risks.</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Salesperson Contribution to Team Sales</td>
+                <td>Calculate the percentage contribution of each salesperson to their respective team’s total sales.</td>
+                <td>Salesperson, Sales Team, Sales</td>
+                <td>Evaluate individual contributions and align incentives accordingly.</td>
+            </tr>
+        </tbody>
+    </table>
 
-## Technology Stack
-- **Power Bi** : Interactive Sales Analysis Dashboard made using Power BI. [Here](https://github.com/23MD/Chocolate_Sales_Analysis/blob/a39d6758c8292bf130e8f6cff68269fda722a21c/Chocolate%20Sales%20Data%20Analysis.pbix)
-- **MySQL Server** : Database server on local machine.
-- **SQL Queries** :  Data Analysis using SQL queries.
-- **Jupyter Notebook** : SQL queries executed in jupyter notebook. [Here](https://github.com/23MD/Chocolate_Sales_Analysis/blob/a39d6758c8292bf130e8f6cff68269fda722a21c/Divine_Chocolate_sales_analysis.ipynb)
+    <h2>Technology Stack</h2>
+    <ul>
+        <li><b>Power BI</b>: Interactive Sales Analysis Dashboard. <a href="https://github.com/23MD/Chocolate_Sales_Analysis/blob/a39d6758c8292bf130e8f6cff68269fda722a21c/Chocolate%20Sales%20Data%20Analysis.pbix">Dashboard Link</a></li>
+        <li><b>MySQL Server</b>: Database server on local machine.</li>
+        <li><b>SQL Queries</b>: Data Analysis using SQL queries.</li>
+        <li><b>Jupyter Notebook</b>: SQL queries executed in Jupyter Notebook. <a href="https://github.com/23MD/Chocolate_Sales_Analysis/blob/a39d6758c8292bf130e8f6cff68269fda722a21c/Divine_Chocolate_sales_analysis.ipynb">Notebook Link</a></li>
+    </ul>
 
