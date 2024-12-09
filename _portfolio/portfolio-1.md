@@ -4,8 +4,6 @@ excerpt: "Conducted a comprehensive analysis of Telangana’s economy across 33 
 collection: portfolio
 ---
 
-# District Level Economic Analysis of Telangana : Revenue, Transport and Investments
-
 # Introduction
 This project aims to analyze the economic growth of Telangana from FY2019 to FY2022 and visualize it through an interactive Power BI dashboard. The analysis focuses on three key areas: stamp duty registration revenue, vehicle sales, and direct investment under the TS-iPASS scheme, with a district-wise breakdown.
 
@@ -22,10 +20,6 @@ By addressing these questions, this project provides a comprehensive view of Tel
 Telangana became a state on June 2, 2014, after separating from the northwestern region of united Andhra Pradesh, with Hyderabad as its capital. From December 2018 to November 2023, the Telangana Rashtra Samithi (TRS) held power, led by Chief Minister K. Chandrashekar Rao (KCR) in his second term.
 
 Telangana's economy ranks as the ninth-largest in India, with a gross state domestic product (GSDP) of ₹9.57 trillion (US$130 billion) in 2023 and a per capita GSDP of ₹320,000 (US$3,800). In 2022-2023, the state generated ₹1.07 trillion in state-owned tax revenue (SOTR).
-
-# Power BI Dashboard 
-
-https://github.com/user-attachments/assets/1b9a10b2-b47e-4c74-b661-5748de0bd1ba
 
 
 # Dataset
