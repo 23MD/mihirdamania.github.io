@@ -1,10 +1,11 @@
 ---
 title: "District Level Economic Analysis of Telangana"
-excerpt: "Conducted a comprehensive analysis of Telangana’s economy across 33 districts, examining registration revenue, vehicle sales, and industrial investments using Power BI to uncover regional trends.<br><img src='https://github.com/23MD/mihirdamania.github.io/blob/cdf8aea0913c481f99ed38e1ad490d31955d0526/images/Telangana_Project.png'>"
+excerpt: "Conducted a comprehensive analysis of Telangana’s economy across 33 districts, examining registration revenue, vehicle sales, and industrial investments using Power BI to uncover regional trends.<br/><img src='/images/Telangana_Project.png'>"
 collection: portfolio
 ---
 
 ![Telangana Project](https://github.com/23MD/mihirdamania.github.io/blob/cdf8aea0913c481f99ed38e1ad490d31955d0526/images/Telangana_Project.png)
+
 # Introduction
 This project aims to analyze the economic growth of Telangana from FY2019 to FY2022 and visualize it through an interactive Power BI dashboard. The analysis focuses on three key areas: stamp duty registration revenue, vehicle sales, and direct investment under the TS-iPASS scheme, with a district-wise breakdown.
 
