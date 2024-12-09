@@ -1,6 +1,6 @@
 ---
 title: "District Level Economic Analysis of Telangana"
-excerpt: "Conducted a comprehensive analysis of Telangana’s economy across 33 districts, examining registration revenue, vehicle sales, and industrial investments using Power BI to uncover regional trends.<br><img src='/images/Telangana_Project.png'>"
+excerpt: "Conducted a comprehensive analysis of Telangana’s economy across 33 districts, examining registration revenue, vehicle sales, and industrial investments using Power BI to uncover regional trends." <br> ![Telangana Project](https://github.com/23MD/mihirdamania.github.io/blob/cdf8aea0913c481f99ed38e1ad490d31955d0526/images/Telangana_Project.png)
 collection: portfolio
 ---
 
